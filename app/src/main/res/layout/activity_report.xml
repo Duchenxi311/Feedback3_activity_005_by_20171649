@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--question1-->
+    <TextView
+        android:id="@+id/qs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question1:"
+        android:textSize="20sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="30dp"
+         />
+
+    <!--question2-->
+    <TextView
+        android:id="@+id/qs2"
+        android:layout_below="@+id/qs1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question2:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <!--question3-->
+    <TextView
+        android:id="@+id/qs3"
+        android:layout_below="@+id/qs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question3:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <!--question4-->
+    <TextView
+        android:id="@+id/qs4"
+        android:layout_below="@+id/qs3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question4:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <!--question5-->
+    <TextView
+        android:id="@+id/qs5"
+        android:layout_below="@+id/qs4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question5:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <!--question6-->
+    <TextView
+        android:id="@+id/qs6"
+        android:layout_below="@+id/qs5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question6:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <!--question7-->
+    <TextView
+        android:id="@+id/qs7"
+        android:layout_below="@+id/qs6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question7:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <!--question8-->
+    <TextView
+        android:id="@+id/qs8"
+        android:layout_below="@+id/qs7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question8:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <!--question9-->
+    <TextView
+        android:id="@+id/qs9"
+        android:layout_below="@+id/qs8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question9:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <!--question10-->
+    <TextView
+        android:id="@+id/qs10"
+        android:layout_below="@+id/qs9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question10:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <!--question11-->
+    <TextView
+        android:id="@+id/qs11"
+        android:layout_below="@+id/qs10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question11:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <!--question12-->
+    <TextView
+        android:id="@+id/qs12"
+        android:layout_below="@+id/qs11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question12:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:layout_below="@+id/qs12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/colorPrimary"
+        android:text="THX"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:onClick="clickend"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        />
+    </LinearLayout>
+</RelativeLayout>
+

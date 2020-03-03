@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 5"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What functions are the most often used?"
+        android:textSize="22sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:text="Music functions"
+        android:textSize="16sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="70dp"
+        android:text="Photo functions"
+        android:textSize="16sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="70dp"
+        android:text="Game functions"
+        android:textSize="16sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="70dp"
+        android:text="Business functions(Word,Excel,ect.)"
+        android:textSize="16sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="70dp"
+        android:text="GPS functions"
+        android:textSize="16sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="70dp"
+        android:text="Data functions(Bluetooth,WLAN,etc.)"
+        android:textSize="16sp"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="70dp"
+        android:text="Others"
+        android:textSize="16sp"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_below="@+id/RG"
+        android:layout_marginTop="55dp"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnClick"
+        android:layout_marginBottom="20dp"
+        />
+    </LinearLayout>
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>

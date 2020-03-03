@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 2"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="35dp"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Houw much does your phone cost"
+        android:textSize="22sp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="38dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv2"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="45dp">
+
+        <RadioButton
+            android:id="@+id/rbt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Under 1000"
+            android:textSize="22sp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="1000-1999"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rbt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="2000-2999"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rbt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="3000-3999"
+            android:textSize="22sp" />
+
+        <RadioButton
+            android:id="@+id/rbt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="More than 4000"
+            android:textSize="22sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:layout_below="@+id/rg"
+        android:layout_marginTop="130dp"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="btnClick"
+        android:layout_marginBottom="20dp"
+        />
+    </LinearLayout>
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>

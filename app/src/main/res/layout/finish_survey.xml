@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THANK YOU"
+        android:textSize="36sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:text="FOR YOUR ANSWERS!"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="400sp"
+        android:layout_height="400sp"
+        android:src="@drawable/picture"
+        android:layout_marginHorizontal="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:background="@color/colorPrimary"
+        android:text="THX"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:onClick="clickThx"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"
+        />
+    </LinearLayout>
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>
